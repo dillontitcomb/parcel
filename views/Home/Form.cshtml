@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Larry's-packages</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <div class="container"
+    <h1>Larry's Packages: Choose Larry for the most competitive delivery rates on the market!</h1>
+      <h2>Input information below to find out how it costs for Larry to deliver your package.</h2>
+    <form action='/package-results'>
+      <div class='form-group'>
+        <label for='weight'>Weight</label>
+        <input id='weight' name='weight' class='form-control' type='number'>
+      </div>
+      <select name='speed' id='speed' class='form-control'>
+        <label for='speed'>How quickly do you need your package delivered?</label>
+        <option value=1 type ='number'>Ground Shipping(7-10 days)</option>
+        <option value=2 type ='number'>Express Shipping(3-5 days)</option>
+        <option value=3 type ='number'>OverNight Shipping</option>
+      </select>
+      <button type='submit' class='btn'>Go!</button>
+    </form>
+    </div>
+  </body>
+</html>
